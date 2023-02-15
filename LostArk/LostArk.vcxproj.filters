@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SourceCode\Include.h" />
+    <ClInclude Include="SourceCode\Utils\cx_fnv1.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\cx_pcg32.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\cx_strenc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\Detours.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\FindPattern.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\ScopedMemProtect.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\Tools.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\VMethod.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\VMTHook.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK.hpp">
+      <Filter>UnrealSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_AkAudio_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_AkAudio_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_AkAudio_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_Basic.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_Core_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_Core_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_Core_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_EFGame_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_EFGame_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_EFGame_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_Engine_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_Engine_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_Engine_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_GameFramework_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_GameFramework_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_GameFramework_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_GFxUI_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_GFxUI_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_GFxUI_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_WinDrv_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_WinDrv_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_WinDrv_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_XAudio2_classes.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_XAudio2_parameters.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\SDK\LA_XAudio2_structs.hpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Hooks\Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\Vector.h">
+      <Filter>UnrealSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\UnrealSDK\Render.h">
+      <Filter>UnrealSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Functions\Aimbot.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Functions\ESP.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\Log.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\kiero\kiero.h">
+      <Filter>vendor\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\impl\d3d10_impl.h">
+      <Filter>vendor\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\impl\d3d11_impl.h">
+      <Filter>vendor\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\impl\d3d9_impl.h">
+      <Filter>vendor\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\impl\shared.h">
+      <Filter>vendor\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\examples\imgui_impl_win32.h">
+      <Filter>vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\examples\imgui_impl_dx9.h">
+      <Filter>vendor\imgui\impl_d3d9</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Utils\Console.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{40fd9c08-9d06-4c62-825e-4871b9a6a68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Startup">
+      <UniqueIdentifier>{74312575-66f8-42d0-8629-3a4fc9428e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnrealSDK">
+      <UniqueIdentifier>{17996783-a356-4bab-9140-d6d474849789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnrealSDK\SDK">
+      <UniqueIdentifier>{28e605c1-6a6c-480f-a00e-c7cf8331d178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{4a88af0b-d7ab-4d18-bb53-0c80ee203fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{66c9d5c5-63f7-4a61-996a-87fdbf379dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{7c8b241e-8b47-4983-84c2-a924bcd378a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\kiero">
+      <UniqueIdentifier>{675a7004-38fd-4856-b20f-65461bc05104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\impl">
+      <UniqueIdentifier>{a7942666-25f5-41a3-91b7-f2ebe7183b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui">
+      <UniqueIdentifier>{a6637e0d-95c7-4e11-a81b-4e3cc0d1e8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\imgui\impl_d3d9">
+      <UniqueIdentifier>{3d61375e-f708-49a0-9de6-6f358608a905}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Utils\Detours.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Utils\FindPattern.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Utils\Tools.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Startup\DllMain.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Startup\Startup.cpp">
+      <Filter>Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_AkAudio_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_Basic.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_Core_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_EFGame_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_Engine_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_GameFramework_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_GFxUI_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_WinDrv_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK\LA_XAudio2_functions.cpp">
+      <Filter>UnrealSDK\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Hooks\Engine.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Hooks\Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\SDK.cpp">
+      <Filter>UnrealSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Functions\Aimbot.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Functions\ESP.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\UnrealSDK\Render.cpp">
+      <Filter>UnrealSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Utils\Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Hooks\DirectX.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\kiero\kiero.cpp">
+      <Filter>vendor\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\impl\d3d10_impl.cpp">
+      <Filter>vendor\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\impl\d3d11_impl.cpp">
+      <Filter>vendor\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\impl\d3d9_impl.cpp">
+      <Filter>vendor\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\impl\shared.cpp">
+      <Filter>vendor\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\examples\imgui_impl_win32.cpp">
+      <Filter>vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\examples\imgui_impl_dx9.cpp">
+      <Filter>vendor\imgui\impl_d3d9</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
